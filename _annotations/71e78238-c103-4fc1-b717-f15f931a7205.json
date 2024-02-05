@@ -4,16 +4,14 @@ order: 3
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "71e78238-c103-4fc1-b717-f15f931a7205.json",
     "@type": "oa:Annotation",
     "motivation": [
         "oa:commenting"
     ],
-    "resource": [
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>Hotel Baur</p>"
-        }
+    "oa:annotatedAt": "2024-02-05T14:47:05.170Z",
+    "oa:annotatedBy": [
+        "guergis"
     ],
     "on": [
         {
@@ -23,11 +21,11 @@ order: 3
                 "@type": "oa:Choice",
                 "default": {
                     "@type": "oa:FragmentSelector",
-                    "value": "xywh=2116,217,895,681"
+                    "value": "xywh=2119,214,895,681"
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2116.29245,217.29531h447.65523v0h447.65523v340.64408v340.64408h-447.65523h-447.65523v-340.64408z\"  id=\"rectangle_9c145de3-4723-4482-b70e-90d3af10653e\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2119.39422,214.19354h447.65523v0h447.65523v340.64408v340.64408h-447.65523h-447.65523v-340.64408z\"  id=\"rectangle_9c145de3-4723-4482-b70e-90d3af10653e\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"18.61063\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -36,9 +34,12 @@ order: 3
             }
         }
     ],
-    "oa:annotatedAt": "2024-02-05T14:47:05.170Z",
-    "@id": "71e78238-c103-4fc1-b717-f15f931a7205.json",
-    "oa:annotatedBy": [
-        "guergis"
-    ]
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>Hotel Baur</p>",
+            "format": "text/html"
+        }
+    ],
+    "oa:serializedAt": "2024-02-05T14:48:55.458Z"
 }
