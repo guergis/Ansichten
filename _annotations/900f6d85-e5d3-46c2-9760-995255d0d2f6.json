@@ -4,29 +4,15 @@ order: 1
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "900f6d85-e5d3-46c2-9760-995255d0d2f6.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:tagging",
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
     ],
-    "resource": [
-        {
-            "@type": "oa:Tag",
-            "chars": "Rathaus"
-        },
-        {
-            "@type": "oa:Tag",
-            "chars": "Caf\u00e9"
-        },
-        {
-            "@type": "oa:Tag",
-            "chars": "Z\u00fcrich"
-        },
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>Das Rathhaus und das Kaffeehaus zur Saffran</p>"
-        }
+    "oa:annotatedAt": "2024-02-09T23:17:42.233Z",
+    "oa:annotatedBy": [
+        "guergis"
     ],
     "on": [
         {
@@ -40,7 +26,7 @@ order: 1
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2429.34022,3234.70129h-611.83828v0h-611.83828v-961.72266v-961.72266h611.83828h611.83828v961.72266z\"  id=\"rectangle_089ace8b-3459-46e0-8e82-5e3930f8f23b\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2429.34022,3234.70129h-611.83828v0h-611.83828v-961.72266v-961.72266h611.83828h611.83828v961.72266z\"  id=\"rectangle_089ace8b-3459-46e0-8e82-5e3930f8f23b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"21.40384\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -49,9 +35,24 @@ order: 1
             }
         }
     ],
-    "oa:annotatedAt": "2024-02-09T23:17:42.233Z",
-    "@id": "900f6d85-e5d3-46c2-9760-995255d0d2f6.json",
-    "oa:annotatedBy": [
-        "guergis"
-    ]
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>Das Rathhaus und das Kaffeehaus zur Saffran / L'H&ocirc;tel de ville et le Caf&eacute; Safran</p>",
+            "format": "text/html"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Rathaus"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Caf\u00e9"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
+        }
+    ],
+    "oa:serializedAt": "2024-02-09T23:18:44.787Z"
 }
