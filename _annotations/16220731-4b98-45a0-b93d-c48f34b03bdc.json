@@ -14,6 +14,7 @@ order: 4
     "oa:annotatedBy": [
         "guergis"
     ],
+    "oa:serializedAt": "2024-02-09T23:08:54.727Z",
     "on": [
         {
             "@type": "oa:SpecificResource",
@@ -26,7 +27,7 @@ order: 4
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M182.54596,798.1888h317.38079v0h317.38079v351.50029v351.50029h-317.38079h-317.38079v-351.50029z\"  id=\"rectangle_dae52611-397d-4d5f-a14a-031598d2e667\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"10.13193\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M182.54596,798.1888h317.38079v0h317.38079v351.50029v351.50029h-317.38079h-317.38079v-351.50029z\"  id=\"rectangle_dae52611-397d-4d5f-a14a-031598d2e667\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"24.6311\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -44,7 +45,10 @@ order: 4
         {
             "@type": "oa:Tag",
             "chars": "Kirche"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
         }
-    ],
-    "oa:serializedAt": "2024-02-09T23:02:46.632Z"
+    ]
 }
