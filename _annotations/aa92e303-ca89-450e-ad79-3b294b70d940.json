@@ -1,0 +1,53 @@
+---
+canvas: "https://www.e-rara.ch/i3f/v21/14544026/canvas/14544027"
+order: 9
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:tagging",
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "oa:Tag",
+            "chars": "Kantonsschule"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Bildung"
+        },
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Kantonsschule (R&auml;mib&uuml;hl)</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://www.e-rara.ch/i3f/v21/14544026/canvas/14544027",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1147,1442,932,642"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1147.1875,1441.81242h466.15199v0h466.15199v321.18592v321.18592h-466.15199h-466.15199v-321.18592z\"  id=\"rectangle_79393e99-9426-46c9-9406-7b59672b3c9f\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://www.e-rara.ch/i3f/v21/14544026/manifest",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2024-02-09T23:05:24.912Z",
+    "@id": "aa92e303-ca89-450e-ad79-3b294b70d940.json",
+    "oa:annotatedBy": [
+        "guergis"
+    ]
+}
