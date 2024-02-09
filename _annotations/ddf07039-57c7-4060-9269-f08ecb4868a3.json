@@ -13,6 +13,7 @@ order: 6
     "oa:annotatedBy": [
         "guergis"
     ],
+    "oa:serializedAt": "2024-02-09T22:55:20.203Z",
     "on": [
         {
             "@type": "oa:SpecificResource",
@@ -21,11 +22,11 @@ order: 6
                 "@type": "oa:Choice",
                 "default": {
                     "@type": "oa:FragmentSelector",
-                    "value": "xywh=226,1411,944,642"
+                    "value": "xywh=213,1418,944,642"
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M226.48522,1410.94685h471.80098v0h471.80098v320.97552v320.97552h-471.80098h-471.80098v-320.97552z\"  id=\"rectangle_a332b403-3637-491f-89cd-6c4bf4046163\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"10.13193\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M212.84886,1418.21958h471.80098v0h471.80098v320.97552v320.97552h-471.80098h-471.80098v-320.97552z\"  id=\"rectangle_a332b403-3637-491f-89cd-6c4bf4046163\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5.45455\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -40,6 +41,5 @@ order: 6
             "chars": "<p>Blinden und Taubstummen Anstalt</p>",
             "format": "text/html"
         }
-    ],
-    "oa:serializedAt": "2024-02-09T22:53:57.880Z"
+    ]
 }
