@@ -4,21 +4,15 @@ order: 9
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "be3d1e57-e829-45f4-9f55-e52bcff31a47.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:tagging",
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
     ],
-    "resource": [
-        {
-            "@type": "oa:Tag",
-            "chars": "Kirche"
-        },
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>Grossm&uuml;nster</p>"
-        }
+    "oa:annotatedAt": "2024-02-09T22:59:18.433Z",
+    "oa:annotatedBy": [
+        "guergis"
     ],
     "on": [
         {
@@ -28,11 +22,11 @@ order: 9
                 "@type": "oa:Choice",
                 "default": {
                     "@type": "oa:FragmentSelector",
-                    "value": "xywh=2402,859,594,661"
+                    "value": "xywh=2392,841,594,661"
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2996.00915,858.56902h-297.05549v0h-297.05549v330.32689v330.32689h297.05549h297.05549v-330.32689z\"  id=\"rectangle_4e525920-22e2-4829-8c91-4f53aaa580a9\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2986.23684,840.97886h-297.05549v0h-297.05549v330.32689v330.32689h297.05549h297.05549v-330.32689z\"  id=\"rectangle_4e525920-22e2-4829-8c91-4f53aaa580a9\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"11.72677\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -41,9 +35,16 @@ order: 9
             }
         }
     ],
-    "oa:annotatedAt": "2024-02-09T22:59:18.433Z",
-    "@id": "be3d1e57-e829-45f4-9f55-e52bcff31a47.json",
-    "oa:annotatedBy": [
-        "guergis"
-    ]
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>Grossm&uuml;nster</p>",
+            "format": "text/html"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Kirche"
+        }
+    ],
+    "oa:serializedAt": "2024-02-09T22:59:55.920Z"
 }
