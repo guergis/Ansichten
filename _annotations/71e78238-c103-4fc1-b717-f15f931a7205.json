@@ -7,13 +7,14 @@ order: 3
     "@id": "71e78238-c103-4fc1-b717-f15f931a7205.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
     ],
     "oa:annotatedAt": "2024-02-05T14:47:05.170Z",
     "oa:annotatedBy": [
         "guergis"
     ],
-    "oa:serializedAt": "2024-02-09T22:57:19.669Z",
+    "oa:serializedAt": "2024-02-09T23:08:31.577Z",
     "on": [
         {
             "@type": "oa:SpecificResource",
@@ -26,7 +27,7 @@ order: 3
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2127.21207,179.01322h447.65523v0h447.65523v340.64408v340.64408h-447.65523h-447.65523v-340.64408z\"  id=\"rectangle_9c145de3-4723-4482-b70e-90d3af10653e\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"23.45355\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2127.21207,179.01322h447.65523v0h447.65523v340.64408v340.64408h-447.65523h-447.65523v-340.64408z\"  id=\"rectangle_9c145de3-4723-4482-b70e-90d3af10653e\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"24.6311\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -40,6 +41,18 @@ order: 3
             "@type": "dctypes:Text",
             "chars": "<p>Hotel Baur</p>",
             "format": "text/html"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Hotel"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Tourismus"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
         }
     ]
 }
