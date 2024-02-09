@@ -14,6 +14,7 @@ order: 9
     "oa:annotatedBy": [
         "guergis"
     ],
+    "oa:serializedAt": "2024-02-09T23:12:30.135Z",
     "on": [
         {
             "@type": "oa:SpecificResource",
@@ -26,7 +27,7 @@ order: 9
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M811.85697,836.41407h799.07209v0h799.07209v311.81379v311.81379h-799.07209h-799.07209v-311.81379z\"  id=\"rectangle_4f991615-e1a0-4ecf-b84f-2c156e2867fa\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"16.88655\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M811.85697,836.41407h799.07209v0h799.07209v311.81379v311.81379h-799.07209h-799.07209v-311.81379z\"  id=\"rectangle_4f991615-e1a0-4ecf-b84f-2c156e2867fa\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"18.38702\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -44,7 +45,18 @@ order: 9
         {
             "@type": "oa:Tag",
             "chars": "Ansicht"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrichsee"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Berge"
         }
-    ],
-    "oa:serializedAt": "2024-02-09T23:02:09.785Z"
+    ]
 }
