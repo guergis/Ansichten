@@ -4,16 +4,14 @@ order: 8
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "45baae40-b1bb-4777-8ab8-b2c7e6203403.json",
     "@type": "oa:Annotation",
     "motivation": [
         "oa:commenting"
     ],
-    "resource": [
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>Kantonsschule (R&auml;mib&uuml;hl)</p>"
-        }
+    "oa:annotatedAt": "2024-02-09T22:53:30.352Z",
+    "oa:annotatedBy": [
+        "guergis"
     ],
     "on": [
         {
@@ -23,11 +21,11 @@ order: 8
                 "@type": "oa:Choice",
                 "default": {
                     "@type": "oa:FragmentSelector",
-                    "value": "xywh=1118,1416,960,666"
+                    "value": "xywh=0,0,2078,2082"
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2077.57278,2082.29928h-479.79771v0h-479.79771v-333.21305v-333.21305h479.79771h479.79771v333.21305z\"  id=\"rectangle_5f9d67d0-4cde-4282-9f6e-f5d57d3a1e5d\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2077.57278,2082.29928l-2077.57278,-2082.29928v0v0v0v0v0l2077.57278,1415.87318v333.21305z\"  id=\"rectangle_5f9d67d0-4cde-4282-9f6e-f5d57d3a1e5d\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"14.58998\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -36,9 +34,12 @@ order: 8
             }
         }
     ],
-    "oa:annotatedAt": "2024-02-09T22:53:30.352Z",
-    "@id": "45baae40-b1bb-4777-8ab8-b2c7e6203403.json",
-    "oa:annotatedBy": [
-        "guergis"
-    ]
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>Kantonsschule (R&auml;mib&uuml;hl)</p>",
+            "format": "text/html"
+        }
+    ],
+    "oa:serializedAt": "2024-02-09T23:03:52.004Z"
 }
