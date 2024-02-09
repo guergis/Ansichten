@@ -4,16 +4,15 @@ order: 4
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "16220731-4b98-45a0-b93d-c48f34b03bdc.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
     ],
-    "resource": [
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>Fraum&uuml;nster</p>"
-        }
+    "oa:annotatedAt": "2024-02-05T14:47:41.159Z",
+    "oa:annotatedBy": [
+        "guergis"
     ],
     "on": [
         {
@@ -23,11 +22,11 @@ order: 4
                 "@type": "oa:Choice",
                 "default": {
                     "@type": "oa:FragmentSelector",
-                    "value": "xywh=218,807,635,703"
+                    "value": "xywh=183,798,635,703"
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M218.00772,806.63208h317.38079v0h317.38079v351.50029v351.50029h-317.38079h-317.38079v-351.50029z\"  id=\"rectangle_dae52611-397d-4d5f-a14a-031598d2e667\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M182.54596,798.1888h317.38079v0h317.38079v351.50029v351.50029h-317.38079h-317.38079v-351.50029z\"  id=\"rectangle_dae52611-397d-4d5f-a14a-031598d2e667\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"10.13193\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -36,9 +35,16 @@ order: 4
             }
         }
     ],
-    "oa:annotatedAt": "2024-02-05T14:47:41.159Z",
-    "@id": "16220731-4b98-45a0-b93d-c48f34b03bdc.json",
-    "oa:annotatedBy": [
-        "guergis"
-    ]
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>Fraum&uuml;nster</p>",
+            "format": "text/html"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Kirche"
+        }
+    ],
+    "oa:serializedAt": "2024-02-09T23:02:46.632Z"
 }
