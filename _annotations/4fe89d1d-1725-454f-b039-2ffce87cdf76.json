@@ -7,12 +7,14 @@ order: 2
     "@id": "4fe89d1d-1725-454f-b039-2ffce87cdf76.json",
     "@type": "oa:Annotation",
     "motivation": [
-        "oa:commenting"
+        "oa:commenting",
+        "oa:tagging"
     ],
     "oa:annotatedAt": "2024-02-05T14:46:43.565Z",
     "oa:annotatedBy": [
         "guergis"
     ],
+    "oa:serializedAt": "2024-02-09T23:08:01.032Z",
     "on": [
         {
             "@type": "oa:SpecificResource",
@@ -25,7 +27,7 @@ order: 2
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1148.53945,189.12568h480.22384v0h480.22384v326.68611v326.68611h-480.22384h-480.22384v-326.68611z\"  id=\"rectangle_d57f0cd3-e4f4-4ef6-b9d0-29150af1ab0b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"23.45355\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1148.53945,189.12568h480.22384v0h480.22384v326.68611v326.68611h-480.22384h-480.22384v-326.68611z\"  id=\"rectangle_d57f0cd3-e4f4-4ef6-b9d0-29150af1ab0b\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"24.6311\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -39,7 +41,22 @@ order: 2
             "@type": "dctypes:Text",
             "chars": "<p>Eisenbahnhof</p>",
             "format": "text/html"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Transport"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Z\u00fcrich"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Hauptbahnhof"
+        },
+        {
+            "@type": "oa:Tag",
+            "chars": "Eisenbahn"
         }
-    ],
-    "oa:serializedAt": "2024-02-09T22:57:33.541Z"
+    ]
 }
